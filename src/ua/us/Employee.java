@@ -45,7 +45,7 @@ public class Employee {
     static Employee getMaxPaym(ArrayList<Employee> emplList) {
 
         int maxPaym = 0;
-        Employee emplMaxPaym = new Employee();
+        Employee emplMaxPaym = null;
 
         for (Employee empl : emplList) {
             int curPaym = empl.getPaym();
